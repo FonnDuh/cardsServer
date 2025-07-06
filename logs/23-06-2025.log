@@ -1,0 +1,2 @@
+[23/06/2025 04:13:58] POST /cards 401 - 2.474 ms | Authentication Error: Please login for token.
+[23/06/2025 04:14:02] POST /cards 401 - 0.546 ms | Authentication Error: Please login for token.

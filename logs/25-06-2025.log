@@ -1,0 +1,38 @@
+[25/06/2025 18:28:50] POST /users/ 400 - 54.297 ms | Mongoose:  Error: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "noam@webify.co.il" }
+[25/06/2025 18:31:43] POST /users/login 400 - 1.353 ms | Validation Error: Email must be a valid email address.
+[25/06/2025 18:32:03] POST /users/login 400 - 0.886 ms | Validation Error: Email must be a valid email address.
+[25/06/2025 18:33:17] POST /users/login 400 - 0.582 ms | Validation Error: Email must be a valid email address.
+[25/06/2025 18:34:48] POST /users/login 400 - 1.295 ms | Validation Error: Email must be a valid email address.,"address" is not allowed,"image" is not allowed
+[25/06/2025 18:34:52] POST /users/ 400 - 1.324 ms | Validation Error: "name" is required,"phone" is required,"isBusiness" is required
+[25/06/2025 18:35:26] POST /users/login 400 - 0.822 ms | Validation Error: Email must be a valid email address.
+[25/06/2025 18:43:20] GET /users/ 401 - 2.322 ms | Authentication Error: Please login for token.
+[25/06/2025 18:43:29] GET /users/ 500 - 3.755 ms | An unexpected error occurred.
+[25/06/2025 18:44:15] GET /users/ 500 - 1.689 ms | An unexpected error occurred.
+[25/06/2025 18:46:12] GET /users 500 - 1.264 ms | An unexpected error occurred.
+[25/06/2025 18:47:01] GET /users/ 403 - 3.773 ms | Authorization Error: Only admin user can get all users list
+[25/06/2025 18:47:27] GET /users/login 401 - 0.658 ms | Authentication Error: Please login for token.
+[25/06/2025 18:47:31] POST /users/login 400 - 3.428 ms | Validation Error: Email must be a valid email address.
+[25/06/2025 18:47:42] POST /users/login 400 - 0.697 ms | Validation Error: Email must be a valid email address.
+[25/06/2025 18:49:51] GET /users 401 - 0.854 ms | Authentication Error: Please login for token.
+[25/06/2025 18:49:56] POST /users 400 - 3.539 ms | Validation Error: "name" is required,"phone" is required,"image" is required,"address" is required,"isBusiness" is required
+[25/06/2025 20:02:08] PUT /users/6845ca86af2894dfec2ecbb3 400 - 9.296 ms | Cannot read properties of undefined (reading 'first')
+[25/06/2025 20:02:37] PUT /users/6845ca86af2894dfec2ecbb3 400 - 8.920 ms | Cannot read properties of undefined (reading 'first')
+[25/06/2025 20:02:58] PUT /users/6845ca86af2894dfec2ecbb3 400 - 2.470 ms | Cannot read properties of undefined (reading 'first')
+[25/06/2025 20:09:59] PUT /users/6845ca86af2894dfec2ecbb3 400 - 22.716 ms | Cannot read properties of undefined (reading 'name')
+[25/06/2025 20:11:38] PUT /users/6845ca86af2894dfec2ecbb3 400 - 22.735 ms | Cannot read properties of undefined (reading 'name')
+[25/06/2025 20:38:21] PATCH /users/6845ca86af2894dfec2ecbb3 401 - 1.690 ms | Authentication Error: Please login for token.
+[25/06/2025 20:48:58] PATCH /users/6845ca86af2894dfec2ecbb3 403 - 4.071 ms | Authorization Error: You can only change your own business status.
+[25/06/2025 20:49:33] PATCH /users/6845ca86af2894dfec2ecbb3 403 - 1.288 ms | Authorization Error: You can only change your own business status.
+[25/06/2025 20:49:44] PATCH /users/6845ca86af2894dfec2ecbb3 403 - 0.923 ms | Authorization Error: You can only change your own business status.
+[25/06/2025 20:50:48] PATCH /users/6845ca86af2894dfec2ecbb3 403 - 4.055 ms | Authorization Error: You can only change your own business status.
+[25/06/2025 20:51:24] PATCH /users/6845ca86af2894dfec2ecbb3 403 - 4.004 ms | Authorization Error: You can only change your own business status.
+[25/06/2025 20:52:28] PATCH /users/6845ca86af2894dfec2ecbb3 403 - 3.992 ms | Authorization Error: You can only change your own business status.
+[25/06/2025 20:53:05] PATCH /users/6845ca86af2894dfec2ecbb3 403 - 4.590 ms | Authorization Error: You can only change your own business status.
+[25/06/2025 21:16:40] PATCH /users/6845ca86af2894dfec2ecbb3 403 - 3.979 ms | Authorization Error: You can only change your own business status.
+[25/06/2025 21:49:09] PATCH /users/6845ca86af2894dfec2ecbb3 403 - 3.794 ms | Authorization Error: You can  asdonly change your own business status.
+[25/06/2025 21:49:47] PATCH /users/6845ca86af2894dfec2ecbb3 403 - 3.698 ms | Authorization Error: You can only change your own business status.
+[25/06/2025 21:49:49] PATCH /users/6845ca86af2894dfec2ecbb3 403 - 1.244 ms | Authorization Error: You can only change your own business status.
+[25/06/2025 21:50:27] PATCH /users/6845ca86af2894dfec2ecbb3 403 - 1.175 ms | Authorization Error: You can only change your own business status.
+[25/06/2025 21:50:37] PATCH /users/6845ca86af2894dfec2ecbb3 403 - 0.878 ms | Authorization Error: You can only change your own business status.
+[25/06/2025 21:51:30] PATCH /users/6845ca86af2894dfec2ecbb3 403 - 4.136 ms | Authorization Error: You can only change your own business status.
+[25/06/2025 21:51:51] PATCH /users/6845ca86af2894dfec2ecbb3 403 - 1.420 ms | Authorization Error: You can only change your own business status.

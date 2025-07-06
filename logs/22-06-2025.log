@@ -1,0 +1,12 @@
+[22/06/2025 20:35:07] POST /cards 401 - 1.975 ms
+[22/06/2025 20:35:24] POST /cards 401 - 0.575 ms
+[22/06/2025 20:36:04] POST /cards 401 - 2.014 ms
+[22/06/2025 20:42:14] POST /cards 401 - 2.054 ms
+[22/06/2025 20:51:57] POST /cards 401 - 1.165 ms
+[22/06/2025 20:52:28] POST /cards 401 - 2.185 ms
+[22/06/2025 20:53:25] POST /cards 401 - 2.902 ms
+[22/06/2025 20:53:27] POST /cards 401 - 0.551 ms
+[22/06/2025 20:53:35] POST /cards 401 - 0.585 ms
+[22/06/2025 21:05:08] POST /cards 401 - 2.225 ms
+[22-06-2025 21:17:17] undefined undefined 401 - Authentication Error: No authentication token provided. Please login for token.
+[22-06-2025 21:19:11] undefined undefined 401 - Authentication Error: Please login for token.

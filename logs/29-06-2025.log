@@ -1,0 +1,18 @@
+[29/06/2025 18:50:15] GET /user 404 - 1.805 ms | Route not found.
+[29/06/2025 18:50:44] GET /user 404 - 1.752 ms | Route not found.
+[29/06/2025 18:52:30] POST /users/login 400 - 6.332 ms | Validation Error: "_id" is not allowed,"name" is not allowed,"phone" is not allowed,"image" is not allowed,"address" is not allowed,"isAdmin" is not allowed,"isBusiness" is not allowed,"createdAt" is not allowed,"__v" is not allowed
+[29/06/2025 20:40:04] POST /users/login 400 - 1.683 ms | Authentication Error: User not found
+[29/06/2025 20:40:05] POST /users/login 400 - 1.515 ms | Authentication Error: User not found
+[29/06/2025 20:40:05] POST /users/login 400 - 1.460 ms | Authentication Error: User not found
+[29/06/2025 20:40:06] POST /users/login 400 - 2.068 ms | Authentication Error: User not found
+[29/06/2025 20:40:07] POST /users/login 400 - 1.642 ms | Authentication Error: User not found
+[29/06/2025 20:40:07] POST /users/login 400 - 1.408 ms | Authentication Error: User not found
+[29/06/2025 20:40:08] POST /users/login 400 - 1.455 ms | Authentication Error: User not found
+[29/06/2025 20:40:08] POST /users/login 400 - 1.540 ms | Authentication Error: User not found
+[29/06/2025 20:40:09] POST /users/login 400 - 1.450 ms | Authentication Error: User not found
+[29/06/2025 20:40:53] POST /users/login 400 - 66.177 ms | Authentication Error: Email or Password Invalid.
+[29/06/2025 20:40:55] POST /users/login 400 - 50.694 ms | Authentication Error: Email or Password Invalid.
+[29/06/2025 20:40:56] POST /users/login 400 - 51.243 ms | Authentication Error: Email or Password Invalid.
+[29/06/2025 20:40:56] POST /users/login 400 - 2.020 ms | Authentication Error: Account locked. Try again in 24 hour(s).
+[29/06/2025 20:40:57] POST /users/login 400 - 2.180 ms | Authentication Error: Account locked. Try again in 24 hour(s).
+[29/06/2025 20:40:57] POST /users/login 400 - 1.889 ms | Authentication Error: Account locked. Try again in 24 hour(s).

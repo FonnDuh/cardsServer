@@ -1,0 +1,56 @@
+[02/07/2025 18:34:14] POST /users/login 400 - 301.577 ms | Authentication Error: Email or Password Invalid.
+[02/07/2025 18:34:21] POST /users/login 400 - 286.021 ms | Authentication Error: Email or Password Invalid.
+[02/07/2025 18:34:25] POST /users/login 400 - 284.655 ms | Authentication Error: Email or Password Invalid.
+[02/07/2025 18:35:10] POST /users/login 400 - 118.542 ms | Authentication Error: Account locked. Try again in 24 hour(s).
+[02/07/2025 18:36:09] POST /users/login 400 - 286.085 ms | Authentication Error: Email or Password Invalid.
+[02/07/2025 18:36:14] POST /users/login 400 - 288.537 ms | Authentication Error: Email or Password Invalid.
+[02/07/2025 18:36:24] POST /users/login 400 - 285.660 ms | Authentication Error: Email or Password Invalid.
+[02/07/2025 18:36:28] POST /users/login 400 - 117.669 ms | Authentication Error: Account locked. Try again in 24 hour(s).
+[02/07/2025 18:42:56] GET /users/6865524865d4a21b989e9b97 403 - 1.749 ms | Authentication Error: Access denied. You can only view your own profile or if you are an admin.
+[02/07/2025 18:43:31] GET /users/6865524865d4a21b989e9b97 403 - 1.529 ms | Authentication Error: Access denied. You can only view your own profile or if you are an admin.
+[02/07/2025 18:47:21] GET /users/6865524865d4a21b989e9b97 403 - 0.830 ms | Authentication Error: Access denied. You can only view your own profile or if you are an admin.
+[02/07/2025 18:47:33] GET /users/6865524865d4a21b989e9b97 403 - 0.893 ms | Authentication Error: Access denied. You can only view your own profile or if you are an admin.
+[02/07/2025 18:47:43] GET /users/6865524865d4a21b989e9b97 403 - 0.849 ms | Authentication Error: Access denied. You can only view your own profile or if you are an admin.
+[02/07/2025 18:48:05] GET /users/6865524865d4a21b989e9b97 403 - 1.041 ms | Authentication Error: Access denied. You can only view your own profile or if you are an admin.
+[02/07/2025 18:49:13] GET /users/6865524865d4a21b989e9b97 403 - 4.659 ms | Authentication Error: Access denied. You can only view your own profile or if you are an admin.
+[02/07/2025 18:51:04] GET /users/6865524865d4a21b989e9b97 500 - 5.004 ms | An unexpected error occurred.
+[02/07/2025 18:51:26] GET /users/6865524865d4a21b989e9b97 500 - 1.985 ms | An unexpected error occurred.
+[02/07/2025 18:51:40] GET /users/6865524865d4a21b989e9b97 500 - 2.370 ms | An unexpected error occurred.
+[02/07/2025 18:52:14] GET /users/6865524865d4a21b989e9b97 500 - 4.342 ms | An unexpected error occurred.
+[02/07/2025 18:52:24] GET /users/6865524865d4a21b989e9b97 500 - 1.669 ms | An unexpected error occurred.
+[02/07/2025 18:53:16] GET /users/6865524865d4a21b989e9b97 500 - 2.199 ms | An unexpected error occurred.
+[02/07/2025 18:59:30] PUT /users/6865524865d4a21b989e9b97 400 - 4.017 ms | Validation Error: "email" is required,"password" is required,"isBusiness" is required
+[02/07/2025 19:00:53] PUT /users/6865524865d4a21b989e9b97 400 - 2.189 ms | Validation Error: "email" is required,"password" is required,"isBusiness" is required
+[02/07/2025 19:01:51] PUT /users/6865524865d4a21b989e9b97 400 - 7.968 ms | Validation Error: "email" is required,"password" is required,"isBusiness" is required
+[02/07/2025 19:51:56] DELETE /cards/677f783ae0b8e607991a1104 403 - 120.514 ms | Authentication Error: You can only delete your own cards.
+[02/07/2025 19:53:08] DELETE /cards/677f783ae0b8e607991a1104 403 - 748.701 ms | Authentication Error: You can only delete your own cards.
+[02/07/2025 19:55:07] DELETE /cards/677f783ae0b8e607991a1104 403 - 128.491 ms | Authentication Error: You can only delete your own cards.
+[02/07/2025 19:55:23] DELETE /cards/677f783ae0b8e607991a1104 403 - 118.927 ms | Authentication Error: You can only delete your own cards.
+[02/07/2025 19:56:50] DELETE /cards/677f783ae0b8e607991a1104 403 - 340.242 ms | Authentication Error: You can only delete your own cards.
+[02/07/2025 20:01:34] DELETE /cards/677a5ba49280339038e9680a 403 - 119.806 ms | Authentication Error: You can only delete your own cards.
+[02/07/2025 20:01:39] PUT /users/6865524865d4a21b989e9b97 400 - 6.885 ms | Validation Error: "email" is required,"password" is required,"_id" is not allowed,"createdAt" is not allowed
+[02/07/2025 20:04:05] GET /cards/my-cards 403 - 1.069 ms | Authentication Error: Only business users can view their cards.
+[02/07/2025 20:04:21] PUT /cards/677d1121a356aaa9a5593c85 400 - 118.377 ms | Authentication Error: You can only update your own cards.
+[02/07/2025 20:05:05] PUT /cards/677d1121a356aaa9a5593c85 400 - 235.532 ms | Authentication Error: You can only update your own cards.
+[02/07/2025 20:05:05] PUT /cards/677d1121a356aaa9a5593c85 400 - 117.783 ms | Authentication Error: You can only update your own cards.
+[02/07/2025 20:05:58] PUT /cards/677d1121a356aaa9a5593c85 400 - 119.928 ms | Authentication Error: You can only update your own cards.
+[02/07/2025 20:06:59] PUT /cards/677d1121a356aaa9a5593c85 400 - 119.327 ms | Authentication Error: You can only update your own cards.
+[02/07/2025 20:09:39] PUT /cards/677d1121a356aaa9a5593c85 400 - 120.343 ms | Authentication Error: You can only update your own cards.
+[02/07/2025 20:12:49] PUT /cards/677d1121a356aaa9a5593c85 400 - 119.561 ms | Authentication Error: You can only update your own cards.
+[02/07/2025 20:13:49] PUT /cards/677d1121a356aaa9a5593c85 500 - 2.387 ms | An unexpected error occurred.
+[02/07/2025 20:14:56] PUT /cards/677d1121a356aaa9a5593c85 400 - 120.057 ms | Authentication Error: You can only update your own cards.
+[02/07/2025 20:16:08] PUT /cards/677d1121a356aaa9a5593c85 400 - 119.815 ms | Authentication Error: You can only update your own cards.
+[02/07/2025 20:16:38] PUT /cards/677d1121a356aaa9a5593c85 400 - 117.785 ms | Authentication Error: You can only update your own cards.
+[02/07/2025 20:17:13] PUT /cards/677d1121a356aaa9a5593c85 400 - 119.191 ms | Authentication Error: You can only update your own cards.
+[02/07/2025 20:21:01] PUT /cards/677d1121a356aaa9a5593c85 400 - 117.619 ms | Authentication Error: You can only update your own cards.
+[02/07/2025 20:21:40] PUT /cards/677d1121a356aaa9a5593c85 400 - 120.401 ms | Authentication Error: You can only update your own cards.
+[02/07/2025 20:22:50] PUT /cards/677d1121a356aaa9a5593c85 400 - 119.168 ms | Authentication Error: You can only update your own cards.
+[02/07/2025 20:26:55] PUT /cards/677d1121a356aaa9a5593c85 400 - 119.431 ms | Authentication Error: You can only update your own cards.
+[02/07/2025 20:27:32] PUT /cards/677d1121a356aaa9a5593c85 401 - 0.426 ms | Authentication Error: Please login for token.
+[02/07/2025 20:28:30] GET /cards/my-cards 403 - 1.287 ms | Authentication Error: Only business users can view their cards.
+[02/07/2025 20:29:03] GET /cards/my-cards 403 - 1.228 ms | Authentication Error: Only business users can view their cards.
+[02/07/2025 20:29:32] POST /cards 403 - 0.961 ms | Authentication Error: Only business users can create cards.
+[02/07/2025 20:32:33] POST /cards 403 - 1.562 ms | Authentication Error: Only business users can create cards.
+[02/07/2025 20:32:45] POST /cards 403 - 1.429 ms | Authentication Error: Only business users can create cards.
+[02/07/2025 20:33:15] POST /users/login 400 - 292.051 ms | Authentication Error: Email or Password Invalid.
+[02/07/2025 20:49:07] PATCH /cards/677a4bbcf3a7d830aa91cf7c/biznumber 400 - 118.881 ms | Validation Error: A card with this business number already exists.
