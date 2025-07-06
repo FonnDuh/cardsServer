@@ -1,0 +1,12 @@
+[06/07/2025 17:43:45] POST /cards 400 - 246.056 ms | Mongoose:  Error: E11000 duplicate key error collection: test.cards index: email_1 dup key: { email: "business@mail.com" }
+[06/07/2025 17:51:53] PUT /cards/686a8d8197b7d24feaebf9fe 400 - 285.100 ms | Mongoose:  Error: Plan executor error during findAndModify :: caused by :: E11000 duplicate key error collection: test.cards index: email_1 dup key: { email: "business@mail.com" }
+[06/07/2025 17:54:25] PUT /cards/686a8d8197b7d24feaebf9fe 400 - 264.363 ms | Mongoose:  Error: Plan executor error during findAndModify :: caused by :: E11000 duplicate key error collection: test.cards index: email_1 dup key: { email: "business@mail.com" }
+[06/07/2025 17:56:04] PUT /cards/686a8d8197b7d24feaebf9fe 400 - 256.973 ms | Mongoose:  Error: Plan executor error during findAndModify :: caused by :: E11000 duplicate key error collection: test.cards index: email_1 dup key: { email: "business@mail.com" }
+[06/07/2025 18:06:28] POST /users/login 400 - 299.418 ms | Authentication Error: Email or Password Invalid.
+[06/07/2025 18:07:16] POST /cards 403 - 0.946 ms | Authentication Error: Only business users can create cards.
+[06/07/2025 18:08:34] POST /cards 403 - 0.840 ms | Authentication Error: Only business users can create cards.
+[06/07/2025 18:11:20] POST /cards 403 - 0.809 ms | Authentication Error: Only business users can create cards.
+[06/07/2025 18:15:08] POST /cards 403 - 0.908 ms | Authentication Error: Only business users can create cards.
+[06/07/2025 18:16:47] POST /cards 403 - 0.804 ms | Authentication Error: Only business users can create cards.
+[06/07/2025 18:16:54] POST /cards 403 - 0.768 ms | Authentication Error: Only business users can create cards.
+[06/07/2025 18:16:58] GET /users/686a905d70b80da20d635e66 401 - 0.328 ms | Authentication Error: Please login for token.

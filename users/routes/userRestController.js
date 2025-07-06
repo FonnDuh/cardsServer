@@ -109,9 +109,7 @@ router.put("/:id", auth, async (req, res) => {
     if (errorMessage != "") {
       return createError("Validation", errorMessage, 400);
     }
-    console.log(updatedUser);
     let user = await updateUser(id, updatedUser);
-    console.log(user);
     res.status(201).send(returnUser(user));
   } catch (error) {
     return handleError(res, error.status, error.message);

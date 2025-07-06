@@ -28,7 +28,6 @@ router.post("/", auth, async (req, res) => {
 
     const errorMsg = cardValidation(req.body);
     if (errorMsg !== "") {
-      console.log(errorMsg);
       return createError("Validation", errorMsg, 400);
     }
 

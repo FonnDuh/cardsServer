@@ -4,7 +4,6 @@ const DEFAULT_VALIDATION = {
   maxLength: 256,
   required: true,
   trim: true,
-  lowercase: true,
 };
 
 const PHONE = {
@@ -19,7 +18,7 @@ const EMAIL = {
   required: true,
   lowercase: true,
   trim: true,
-  unique: true,
+  // unique: true | Why card email must email be unique?
 };
 
 const URL = {
@@ -29,6 +28,7 @@ const URL = {
   ),
   lowercase: true,
   trim: true,
+  lowercase: true,
 };
 
 module.exports = { DEFAULT_VALIDATION, PHONE, EMAIL, URL };
