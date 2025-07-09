@@ -23,7 +23,7 @@ app.use((err, req, res, next) => {
   return handleError(res, 500, "An unexpected error occurred.");
 });
 
-app.listen(PORT, () => {
+app.listen(process.env.PORT || PORT, () => {
   console.log(chalk.green.bold.bgCyan(`Server is running on port ${PORT}`));
   console.log(chalk.blue("Connecting to the database..."));
   connectToDB();
