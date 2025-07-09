@@ -3,7 +3,6 @@ const Name = require("../../../helpers/mongodb/Name");
 const { PHONE, EMAIL } = require("../../../helpers/mongodb/mongooseValidator");
 const Address = require("../../../helpers/mongodb/Address");
 const Image = require("../../../helpers/mongodb/Image");
-const { lock } = require("../../routes/userRestController");
 
 const userSchema = new mongoose.Schema({
   name: Name,
