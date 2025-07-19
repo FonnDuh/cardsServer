@@ -1,4 +1,3 @@
-const { date } = require("joi");
 const { generateToken } = require("../../auth/providers/jwt");
 const { createError } = require("../../utils/handleErrors");
 const { generatePassword, comparePassword } = require("../helpers/bcrypt");

@@ -7,7 +7,6 @@ const {
 } = require("../../../helpers/mongodb/mongooseValidator");
 const Image = require("../../../helpers/mongodb/Image");
 const Address = require("../../../helpers/mongodb/Address");
-const { lowerCase } = require("lodash");
 
 const cardSchema = new mongoose.Schema({
   title: DEFAULT_VALIDATION,
